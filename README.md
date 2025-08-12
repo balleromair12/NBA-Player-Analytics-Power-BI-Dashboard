@@ -73,7 +73,7 @@ compare1[compare1['player_df1'] != compare1['player_awards']].drop_duplicates()
 This check revealed cases where the same player_id was assigned to different names (e.g., player_id = 4859 was "Lamar Stevens" in df1 but "LaMelo Ball" in player_awards).
 
 #### Step 2 – Compare and Fix player_id Values
-I repeated this comparison for all four datasets against df1 to make sure every player_id matched the correct player name.
+I repeated this comparison for 2 other datasets against df1 to make sure every player_id matched the correct player name. The all_star.csv file did not contain a player_id column so it was joined on the player name column.
 
 **- Step 2.1 – Get unique player_id values from player_awards:**
 ```
@@ -121,4 +121,15 @@ for val in ids:
                 print()
                 player_awards.loc[player_awards['player'] == name_awards, 'player_id'] = df1_id
 ```
+## Exporting cleaned data for Power BI
+Once data cleaning was performed, the resulting dataframes were converted to a csv file so they can be exported into Power BI using the following code:
 
+```
+df1.to_csv("C:/Users/omair/Downloads/nbaPowerBi/player_stats.csv")
+df2.to_csv("C:/Users/omair/Downloads/nbaPowerBi/players_info.csv")
+all_nba.to_csv("C:/Users/omair/Downloads/nbaPowerBi/all_nba.csv")
+player_awards.to_csv("C:/Users/omair/Downloads/nbaPowerBi/player_awards.csv")
+all_star.to_csv("C:/Users/omair/Downloads/nbaPowerBi/all_star.csv")
+```
+
+## Dashboard
