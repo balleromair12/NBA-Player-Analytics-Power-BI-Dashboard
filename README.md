@@ -133,8 +133,14 @@ all_star.to_csv("C:/Users/omair/Downloads/nbaPowerBi/all_star.csv")
 ```
 
 ## Dashboard
+After importing the CSV files into Power BI, I built an interactive NBA player dashboard. The home page features cards displaying a player’s career averages for points per game (PPG), assists per game (APG), and rebounds per game (RPG), along with a line chart showing season-by-season trends. A search filter allows users to quickly select a player, while additional cards display details such as whether the player is active and their number of All-Star selections. At the bottom, a navigation arrow lets users access more in-depth player information on additional pages.
+
 <img src='images/dashboard_main.png' width=500>
 
-<img src='images/dashboard_other.png' width=500>
+
+
+<img src='images/dashboard_otherpage.png' width=500>
+
+
 
 <img src='images/dashboard_top10.png' width=500>
