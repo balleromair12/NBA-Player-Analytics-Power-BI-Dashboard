@@ -133,3 +133,8 @@ all_star.to_csv("C:/Users/omair/Downloads/nbaPowerBi/all_star.csv")
 ```
 
 ## Dashboard
+<img src='images/dashboard_main.png' width=500>
+
+<img src='images/dashboard_other.png' width=500>
+
+<img src='images/dashboard_top10.png' width=500>
