@@ -143,4 +143,4 @@ Clicking the arrow at the bottom of the page navigates the user to another sheet
 
 The additional page features three line and stacked column charts highlighting the top 10 players in NBA history for points, assists, and rebounds. In each chart, the bars represent total career statistics, while the lines indicate career average trends for each player.
 
-<img src='images/dashboard_top10.png' width=500>
+<img src='images/dashboard_top10.png' width=650>
