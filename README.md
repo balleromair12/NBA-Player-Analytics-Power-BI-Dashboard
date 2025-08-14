@@ -137,10 +137,10 @@ After importing the CSV files into Power BI, I built an interactive NBA player d
 
 <img src='images/dashboard_main.png' width=500>
 
-
+Clicking the arrow at the bottom of the page navigates the user to another sheet displaying additional player information, including the number of All-NBA 1st, 2nd, and 3rd Team selections, All-Defense 1st and 2nd Team honors, and a table summarizing all awards the player has won.
 
 <img src='images/dashboard_otherpage.png' width=500>
 
-
+The additional page features three line and stacked column charts highlighting the top 10 players in NBA history for points, assists, and rebounds. In each chart, the bars represent total career statistics, while the lines indicate career average trends for each player.
 
 <img src='images/dashboard_top10.png' width=500>
